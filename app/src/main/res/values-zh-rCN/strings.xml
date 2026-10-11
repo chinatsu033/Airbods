@@ -22,10 +22,10 @@
     <string name="mode_adaptive">Adaptive</string>
     <string name="mode_off">关闭</string>
     <string name="section_modes">聆听模式</string>
-    <string name="adaptive_strength">Adaptive 强度</string>
-    <string name="adaptive_0">0 · 更通透</string>
-    <string name="adaptive_50">50 · 平衡</string>
-    <string name="adaptive_100">100 · 更降噪</string>
+    <string name="adaptive_strength">强度</string>
+    <string name="adaptive_0">轻</string>
+    <string name="adaptive_50">标准</string>
+    <string name="adaptive_100">重</string>
 
     <string name="ca_title">对话感知</string>
     <string name="ca_desc">开口说话时自动降低媒体音量</string>

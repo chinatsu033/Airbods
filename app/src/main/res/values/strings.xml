@@ -22,10 +22,10 @@
     <string name="mode_adaptive">Adaptive</string>
     <string name="mode_off">Off</string>
     <string name="section_modes">Listening mode</string>
-    <string name="adaptive_strength">Adaptive strength</string>
-    <string name="adaptive_0">0 · more transparency</string>
-    <string name="adaptive_50">50 · balanced</string>
-    <string name="adaptive_100">100 · more ANC</string>
+    <string name="adaptive_strength">Strength</string>
+    <string name="adaptive_0">Light</string>
+    <string name="adaptive_50">Standard</string>
+    <string name="adaptive_100">Heavy</string>
 
     <string name="ca_title">Conversational Awareness</string>
     <string name="ca_desc">Lower media volume when you start speaking</string>
