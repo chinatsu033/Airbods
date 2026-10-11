@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airbods</string>
+    <string name="app_tagline">控制 AirPods 降噪模式</string>
+    <string name="back">返回</string>
+    <string name="settings">设置</string>
+    <string name="connect">连接</string>
+    <string name="reconnect">重新连接</string>
+    <string name="disconnect">断开</string>
+    <string name="action_open">打开</string>
+    <string name="continue_btn">继续</string>
+    <string name="later">稍后</string>
+    <string name="refresh">刷新</string>
+    <string name="clear">清除</string>
+    <string name="open_map">打开地图</string>
+
+    <string name="notification_channel_name">AirPods 连接</string>
+    <string name="notification_channel_desc">保持控制通道，供快捷开关与断开时记录位置</string>
+
+    <string name="mode_anc">降噪</string>
+    <string name="mode_transparency">通透</string>
+    <string name="mode_adaptive">Adaptive</string>
+    <string name="mode_off">关闭</string>
+    <string name="section_modes">聆听模式</string>
+    <string name="adaptive_strength">Adaptive 强度</string>
+    <string name="adaptive_0">0 · 更通透</string>
+    <string name="adaptive_50">50 · 平衡</string>
+    <string name="adaptive_100">100 · 更降噪</string>
+
+    <string name="ca_title">对话感知</string>
+    <string name="ca_desc">开口说话时自动降低媒体音量</string>
+
+    <string name="status_connecting">正在连接…</string>
+    <string name="status_connected">已连接</string>
+    <string name="status_connected_fg">已连接（仅前台）</string>
+    <string name="status_disconnected">未连接</string>
+    <string name="status_error">连接失败</string>
+    <string name="status_no_device">没有找到已配对的 AirPods。请先在系统蓝牙里配对。</string>
+    <string name="status_no_device_short">未找到 AirPods</string>
+    <string name="status_need_bt">需要蓝牙权限</string>
+
+    <string name="battery_l">左 %1$d%%</string>
+    <string name="battery_r">右 %1$d%%</string>
+    <string name="battery_c">盒 %1$d%%</string>
+
+    <string name="banner_notif_title">后台连接需要通知权限</string>
+    <string name="banner_notif_body">没有通知权限时无法启动后台服务。你仍可在应用打开时连接并切换模式。</string>
+    <string name="grant_notifications">授予通知</string>
+    <string name="grant_bluetooth">授予蓝牙</string>
+    <string name="grant_location">授予定位</string>
+    <string name="grant_connect_perms">授予蓝牙与通知</string>
+    <string name="app_settings">应用设置</string>
+
+    <string name="rationale_notif_title">需要通知权限</string>
+    <string name="rationale_notif_body">Android 要求前台服务显示通知，才能在后台保持 AirPods 控制通道，并在断开时保存最后位置。若拒绝，仍可在本应用打开时切换模式。</string>
+
+    <string name="toast_fg_connect">正在前台连接（无通知服务）…</string>
+    <string name="toast_bt_required">需要蓝牙权限。</string>
+
+    <string name="devices_need_bt">请授予蓝牙权限以列出已配对设备</string>
+    <string name="devices_found">已配对：%1$s</string>
+
+    <string name="last_location">最后位置</string>
+    <string name="last_location_card_empty">还没有记录位置 — 点按查看说明</string>
+    <string name="last_location_empty_title">还没有记录位置</string>
+    <string name="last_location_how">当前台服务（连接通知）在运行时，AirPods 断开连接会保存当时的 GPS，作为安卓上「查找」的替代。</string>
+    <string name="last_location_reqs">记录位置需要</string>
+    <string name="req_notif">通知权限（后台服务）</string>
+    <string name="req_loc">定位权限</string>
+    <string name="req_fgs">然后：连接 → 保持服务运行 → 断开 AirPods 即可保存。</string>
+    <string name="coords">%1$.5f, %2$.5f</string>
+    <string name="open_last_location">查看最后位置</string>
+
+    <string name="settings_permissions">权限</string>
+    <string name="settings_battery">电池与自启动</string>
+    <string name="settings_about">关于</string>
+    <string name="perm_bt">附近的设备 / 蓝牙</string>
+    <string name="perm_notif">通知</string>
+    <string name="perm_loc">定位</string>
+    <string name="battery_ok">电池优化：无限制</string>
+    <string name="battery_restricted">电池优化可能杀掉后台服务</string>
+    <string name="battery_help">请允许无限制电池，以便后台保持连接。</string>
+    <string name="battery_request">请求无限制电池</string>
+    <string name="samsung_help">三星 One UI 还需在「从不休眠的应用 / 自启动」中允许 Airbods。</string>
+    <string name="samsung_open">打开三星电池设置</string>
+    <string name="about_body">Airbods 通过 AACP（L2CAP）在非苹果手机上控制 AirPods 降噪模式。MIT 许可。与 Apple 无关。</string>
+
+    <string name="hint_qs">提示：快捷设置 → 编辑 → 添加唯一的「Airbods」磁贴。点按打开模式面板。</string>
+    <string name="tile_cd">打开 Airbods 模式面板</string>
+    <string name="tile_label">Airbods</string>
+    <string name="qs_notif_hint">请开启通知以支持后台控制。</string>
+</resources>

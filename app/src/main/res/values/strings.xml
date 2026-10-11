@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airbods</string>
+    <string name="app_tagline">Noise control for AirPods</string>
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="connect">Connect</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="action_open">Open</string>
+    <string name="continue_btn">Continue</string>
+    <string name="later">Later</string>
+    <string name="refresh">Refresh</string>
+    <string name="clear">Clear</string>
+    <string name="open_map">Open map</string>
+
+    <string name="notification_channel_name">AirPods connection</string>
+    <string name="notification_channel_desc">Keeps the control channel open for Quick Settings and last-location capture</string>
+
+    <string name="mode_anc">Noise Cancellation</string>
+    <string name="mode_transparency">Transparency</string>
+    <string name="mode_adaptive">Adaptive</string>
+    <string name="mode_off">Off</string>
+    <string name="section_modes">Listening mode</string>
+    <string name="adaptive_strength">Adaptive strength</string>
+    <string name="adaptive_0">0 · more transparency</string>
+    <string name="adaptive_50">50 · balanced</string>
+    <string name="adaptive_100">100 · more ANC</string>
+
+    <string name="ca_title">Conversational Awareness</string>
+    <string name="ca_desc">Lower media volume when you start speaking</string>
+
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_connected_fg">Connected (foreground only)</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_error">Connection failed</string>
+    <string name="status_no_device">No paired AirPods found. Pair them in system Bluetooth first.</string>
+    <string name="status_no_device_short">No AirPods</string>
+    <string name="status_need_bt">Bluetooth permission required</string>
+
+    <string name="battery_l">L %1$d%%</string>
+    <string name="battery_r">R %1$d%%</string>
+    <string name="battery_c">Case %1$d%%</string>
+
+    <string name="banner_notif_title">Background connection needs notifications</string>
+    <string name="banner_notif_body">Without notification permission the service cannot run in the background. You can still Connect while the app is open.</string>
+    <string name="grant_notifications">Grant notifications</string>
+    <string name="grant_bluetooth">Grant Bluetooth</string>
+    <string name="grant_location">Grant location</string>
+    <string name="grant_connect_perms">Grant Bluetooth &amp; notifications</string>
+    <string name="app_settings">App settings</string>
+
+    <string name="rationale_notif_title">Notification permission</string>
+    <string name="rationale_notif_body">Android requires a notification for the background Bluetooth connection and for saving last location when AirPods disconnect. If you deny it, you can still switch modes while this app is open.</string>
+
+    <string name="toast_fg_connect">Connecting in foreground (no notification service)…</string>
+    <string name="toast_bt_required">Bluetooth permission is required.</string>
+
+    <string name="devices_need_bt">Grant Bluetooth to list paired AirPods</string>
+    <string name="devices_found">Paired: %1$s</string>
+
+    <string name="last_location">Last location</string>
+    <string name="last_location_card_empty">No place saved yet — tap for details</string>
+    <string name="last_location_empty_title">No location recorded yet</string>
+    <string name="last_location_how">When AirPods disconnect while the connection notification is running, GPS is saved here as a Find My alternative.</string>
+    <string name="last_location_reqs">Requirements to record</string>
+    <string name="req_notif">Notification permission (background service)</string>
+    <string name="req_loc">Location permission</string>
+    <string name="req_fgs">Then: Connect → keep service running → disconnect AirPods to save this place.</string>
+    <string name="coords">%1$.5f, %2$.5f</string>
+    <string name="open_last_location">Open last location</string>
+
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_battery">Battery &amp; autostart</string>
+    <string name="settings_about">About</string>
+    <string name="perm_bt">Nearby devices / Bluetooth</string>
+    <string name="perm_notif">Notifications</string>
+    <string name="perm_loc">Location</string>
+    <string name="battery_ok">Battery optimization: unrestricted</string>
+    <string name="battery_restricted">Battery optimization may kill the service</string>
+    <string name="battery_help">Allow unrestricted battery so the connection can stay alive in the background.</string>
+    <string name="battery_request">Request unrestricted battery</string>
+    <string name="samsung_help">On Samsung One UI, also allow Airbods in Never sleeping apps / Autostart.</string>
+    <string name="samsung_open">Open Samsung battery settings</string>
+    <string name="about_body">Airbods controls AirPods noise modes over AACP (L2CAP) on non-Apple phones. MIT license. Not affiliated with Apple.</string>
+
+    <string name="hint_qs">Tip: Quick Settings → Edit → add the single “Airbods” tile. Tap it to open the mode panel.</string>
+    <string name="tile_cd">Open Airbods mode panel</string>
+    <string name="tile_label">Airbods</string>
+    <string name="qs_notif_hint">Enable notifications for background control.</string>
+</resources>
